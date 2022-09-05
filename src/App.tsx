@@ -1,9 +1,8 @@
-function App() {
+import * as React from 'react';
+import TestBar from './conponents';
+
+export default function TabsVariants() {
     return (
-        <div className="App">
-            aaa
-        </div>
+      <TestBar/>
     );
 }
-
-export default App;
